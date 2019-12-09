@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import './App.css';
-import ArtistSearch from './search/ArtistSearch';
+import ArtistSearch from './components/Search/ArtistSearch';
 
 const listennotes_key = process.env.REACT_APP_LISTENNOTES_KEY;
 

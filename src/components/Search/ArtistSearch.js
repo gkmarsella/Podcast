@@ -10,7 +10,9 @@ class ArtistSearch extends Component {
                             <img src={result.image} />
                             <span>Author: {result.podcast_title_original}</span>
                             <span>Episode: {result.title_original}</span>
-
+                            <audio controls>
+                                <source src={result.audio} type="audio/mpeg" />
+                            </audio>
                         </li>
                     </div>
                 );
@@ -26,4 +28,4 @@ class ArtistSearch extends Component {
     }
 }
 
-export default ArtistSearch;
+export default ArtistSearch; 
